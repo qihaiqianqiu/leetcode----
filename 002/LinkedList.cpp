@@ -1,15 +1,13 @@
-C++单链表的操作2017-12-25  1 // 单链表.cpp: 定义控制台应用程序的入口点。
+// C++单链表的操作2017-12-25  1 // 单链表.cpp: 定义控制台应用程序的入口点。
 //Author:kgvito 
 //Date: 2017.12.25
  
- 
-#include "stdafx.h"
-#include<iostream>
+ #include<iostream>
 using namespace std;
  
-typedef int DataType;
-#define Node ElemType
-#define ERROR NULL
+typedef int DataType; // int类型的别名
+#define Node ElemType // 出现Node的地方，编译器会自动替换成ElemType
+#define ERROR NULL // 出现ERROR的地方，编译器会自动替换成NULL
  
 //构建一个节点类
 class Node                          
